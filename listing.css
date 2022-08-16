@@ -1,0 +1,328 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 70px;
+    background-color: #3b2362;
+}
+#brand{
+    color: aqua;
+    font-size: 50px;
+    float: left;
+    margin-top: 0.5%;
+    margin-left:3%;
+    
+}
+#brandmoto{
+    color: rgb(147, 147, 28);
+    font-style: italic;
+    font-size: 12px;
+    float: left;
+    margin-top: 4.2%;
+    margin-left: -9.8%;
+}
+#social{
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+.socialImg{
+    height: 40px;
+}
+.container{
+    height: 1400px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+   
+}
+.filter{
+    height: 600px;
+    width: 20%;
+    margin-top: 1%;
+    float: left;
+    background-color: rgb(193, 239, 238);
+    border: 3px #3b2632;
+}
+.cost{
+    height: 130px;
+}
+#cost{
+    font-size: 20px;
+    text-align: center;
+    font-style: inherit;
+}
+.customerrating{
+    height: 130px;
+    margin-top: 5%;
+}
+#customerrating{
+    font-size: 20px;
+    text-align: center;
+    font-style: inherit;
+}
+.Select-Location {
+    height: 20px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #192f60;
+    margin-top: 30px;
+}
+
+.Rectangle-2236 {
+    width: 200px;
+    height: 25px;
+    border: solid 1px #8c96ab;
+    margin-top: 10px;
+}
+.content{
+    height: 1520px;
+    width: 75%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-color: rgb(193, 239, 238);
+}
+.box1{
+    height: 350px;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    background-color: rgb(61 180 185);
+    box-shadow: 10px 20px 15px #4a757c;
+}
+.imagepart{
+    height: 50px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.imagepart:hover{
+    transform:skewx(10deg);
+}
+.imagepart >img{
+    height: 200px;
+    width: 90%;
+    border:10px groove rgb(105, 209, 203);
+    box-shadow: 10px 20px 15px #3b2632;
+}
+.contentpart{
+    height: 30px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.contentpart:hover{
+    transform: skewy(10deg);
+}
+#name{
+    height: 37px;
+    color: rgb(30, 28, 147);
+    font-style: oblique;
+    font-size: 30px;
+    margin-top: -10%;
+    margin-left: 49.2%;
+}
+#rating{
+    color: rgb(54, 153, 92);
+    font-style: italic;
+    font-size: 15px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 49%;
+}
+#price{
+    color: rgb(54, 153, 92);
+    font-style: italic;
+    font-size: 15px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 49%;
+}
+#place{
+    color: rgb(54, 153, 92);
+    font-style: italic;
+    font-size: 15px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 49%;
+}
+#figureicons{
+    color: rgb(54, 153, 92);
+    font-style: italic;
+    font-size: 15px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 49%;
+}
+#buttons{
+    color: rgb(237, 230, 230);
+    font-style: italic;
+    font-size: 15px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 49%;
+}
+.figure{
+    float: left;
+    margin-left:5%
+}
+
+.featureIcon{
+    height: 15px;
+    float: left;
+    width: 20px;
+}
+.btn{
+    height: 20px;
+    width: 50px;
+    font-size: 8px;
+    background-color: #130e11;
+    color:#fff;
+}
+footer{
+    height: 150px;
+    margin-top: 12%;
+    background-color: pink;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.fotDiv{
+    height: 20px;
+    width:33%;
+    border: 2px black;
+    float:left;
+    border-right: 2px solid white;
+    border: none;
+}
+
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:skyBlue
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(224, 169, 244)
+    }
+    #brand {
+        color: aqua;
+        font-size: 48px;
+        float: left;
+        margin-top: 0.3%;
+        margin-left: 2.8%;
+    }
+    #brandmoto {
+        color: rgb(147, 147, 28);
+        font-style: italic;
+        font-size: 12px;
+        float: left;
+        margin-top: 4.0%;
+        margin-left: -10.4%;
+    }
+   
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(244, 228, 169)
+    }
+    #brand {
+        color: aqua;
+        font-size: 48px;
+        float: left;
+        margin-top: 0.4%;
+        margin-left: 3%;
+    }
+    #brandmoto {
+        color: rgb(147, 147, 28);
+        font-style: italic;
+        font-size: 12px;
+        float: left;
+        margin-top: 4.2%;
+        margin-left: -10.8%;
+    }
+  
+}
+
+@media screen and (max-width:999px){
+    body{
+        background-color:rgb(194, 243, 190)
+    }
+
+    #brand {
+        color: aqua;
+        font-size: 48px;
+        float: left;
+        margin-top: 0.7%;
+        margin-left: 5%;
+    }
+    #brandmoto {
+        color: rgb(147, 147, 28);
+        font-style: italic;
+        font-size: 12px;
+        float: left;
+        margin-top: 6.2%;
+        margin-left: -12.8%;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(249, 198, 199)
+    }
+    .filter{
+        width: 100%;
+    }
+    #brand {
+        color: aqua;
+        font-size: 48px;
+        float: left;
+        margin-top: 0.5%;
+        margin-left: 4%;
+    }
+    #brandmoto {
+        color: rgb(147, 147, 28);
+        font-style: italic;
+        font-size: 12px;
+        float: left;
+        margin-top: 6.2%;
+        margin-left: -12.8%;
+    }
+    #brand {
+        color: aqua;
+        font-size: 25px;
+        float: left;
+        margin-top: 0.5%;
+        margin-left: 4%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(194, 205, 242)
+    }
+    .filter{
+        width: 100%;
+    }
+}
+@media screen and (max-width:530px){
+    body{
+        background-color:rgb(194, 205, 242)
+    }
+    .filter{
+        width: 100%;
+    }
+}
